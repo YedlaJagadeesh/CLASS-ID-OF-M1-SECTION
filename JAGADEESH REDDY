@@ -1,0 +1,40 @@
+#include <stdio.h>
+int main()
+{  char ID;
+
+   scanf("%c",&ID);
+   
+   if (ID=='n'||ID=='N')
+   {
+   printf("NIKHIL RA2111030010056");
+       
+   }
+   else if (ID=='b'||ID=='B')
+   {
+       printf("BHARATH RA2111030010022"); 
+       }
+     else if (ID=='j'||ID=='J') 
+     {
+         printf("JAGADEESH REDDY RA2111030010017"); 
+         
+     }
+     else if (ID=='a'||ID=='A')
+    {
+           printf("ABHINAYA REDDY RA2111030010051");
+        
+    }
+     else if (ID=='p' || ID=='P')
+     {
+                 printf("PALLAVI RA2111030010034");
+     }
+       else if (ID=='g' || ID=='G')
+       {
+           printf("Goutham RA2111030010072");
+       }  
+       else
+       {
+       printf ("TRISHAN RA2111030010030"); 
+       }
+        
+	return 0;
+}
